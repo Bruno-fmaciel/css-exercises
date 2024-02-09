@@ -1,0 +1,18 @@
+p {
+    background-color: #f33c73;
+    font-family: Verdana, "Dejavu Sans", sans-serif;
+}
+
+#Number2{
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+#Number4 {
+    background-color: rgb(96, 255, 160);
+    font-weight: bold;
+}
+
+.three {
+    font-size: 24px;
+}
