@@ -9,10 +9,32 @@ body {
 }
 
 .header {
+  display: flex;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px;
 }
+
+.flex1 {
+  display: flex;
+  align-items: center;
+}
+
+.flex2 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
 
 .profile-image {
   background: rebeccapurple;
